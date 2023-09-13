@@ -49,6 +49,7 @@ th:hover{
     height: 900px;
     
     display: flex;
+    margin-top: -220px;
 }
 .sec2-1{
     width: 50%;
