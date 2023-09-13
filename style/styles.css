@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(24, 16, 56);
+    padding-top: 15px;
+    display: flex;
+    position: fixed;
+}
+.navbar-img{
+    width: 200px;
+    height: 40px;
+
+    margin-left: 30px;
+
+    
+}
+th{
+  font-size: larger;
+    padding: 15px;
+    cursor: pointer; 
+    color: white;  
+}
+th:hover{
+    color: red;
+}
+.main-img{
+    width: 100%;
+    height: 1073px;
+
+}
+.sec2{
+    width: 100%;
+    height: 900px;
+    
+    display: flex;
+}
+.sec2-1{
+    width: 50%;
+    height: 900px;
+    background-color:rgb(240, 145, 48);
+    
+    text-align: center;
+    font-size: 70px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+.sec2-2{
+    width: 50%;
+    height: 900px;
+    
+}
+.para1{
+    width:843px;
+    height: 250px;
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+}
+.para2{
+    width: 843px;
+    height: 250px;
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+}
+.para3{
+    width:843px;
+    height: 250px;
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+}
+.para4{
+    width: 843px;
+    height: 120px;
+    
+    padding-top: 30px;
+}
+.para5{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    ;
+}
+    
+
+.sec3{
+    width: 100%;
+    height: 900px;
+
+}
+.sec4{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.sec4-1{
+    width: 33%;
+    height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-size: 15px;
+   font-weight: 500;
+
+}
+.sec4-2{
+    width: 34%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+.sec4-3{
+    width: 33%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 100px;
+    position: relative;
+}
+.sec4-4{
+    width: 500px;
+    height: 50px;
+    margin-top: 200px; 
+    display: flex;
+    position: absolute;
+    left: 20%;
+    cursor: pointer;
+    
+}
