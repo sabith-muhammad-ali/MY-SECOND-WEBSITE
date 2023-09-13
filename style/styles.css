@@ -1,6 +1,13 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
+    /* overflow-x: hidden; */
+    width: 100%;
     overflow-x: hidden;
+    
+   
 }
 
 .navbar{
@@ -21,7 +28,7 @@ body{
 }
 th{
   font-size: larger;
-    padding: 15px;
+    padding: 3px;
     cursor: pointer; 
     color: white;  
 }
@@ -32,6 +39,10 @@ th:hover{
     width: 100%;
     height: 1073px;
 
+}
+.main-img >img{
+    width: 100%;
+    object-fit: cover;
 }
 .sec2{
     width: 100%;
@@ -53,12 +64,12 @@ th:hover{
 
 }
 .sec2-2{
-    width: 50%;
+    width: 40%;
     height: 900px;
     
 }
 .para1{
-    width:843px;
+    width:700px;
     height: 250px;
     text-align: center;
     font-size: x-large;
@@ -66,7 +77,7 @@ th:hover{
     align-items: center;
 }
 .para2{
-    width: 843px;
+    width: 700px;
     height: 250px;
     text-align: center;
     font-size: x-large;
@@ -74,7 +85,7 @@ th:hover{
     align-items: center;
 }
 .para3{
-    width:843px;
+    width:700px;
     height: 250px;
     text-align: center;
     font-size: x-large;
@@ -82,7 +93,7 @@ th:hover{
     align-items: center;
 }
 .para4{
-    width: 843px;
+    width: 700px;
     height: 120px;
     
     padding-top: 30px;
@@ -103,6 +114,7 @@ th:hover{
     height: 900px;
 
 }
+
 .sec4{
     width: 100%;
     height: 400px;
@@ -139,12 +151,12 @@ th:hover{
     position: relative;
 }
 .sec4-4{
-    width: 500px;
+    width: 100%;
     height: 50px;
     margin-top: 200px; 
     display: flex;
     position: absolute;
-    left: 20%;
+    
     cursor: pointer;
     
 }
